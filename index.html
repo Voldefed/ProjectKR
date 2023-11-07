@@ -1,0 +1,120 @@
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.cdnfonts.com/css/merge-one" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+        <title>Document</title>
+      </head>
+      
+        <div class="wrapper">
+        <header>
+        <div class="container">
+          <div class="header_block">
+            <div class="logo">ECO SYNERGY</div>
+            <div class="header_block_main-content">
+              <a href="#" class="header_block_main-content-item">Мапа</a>
+              <a href="/oblik.html" class="header_block_main-content-item">Облік</a>
+              <a href="#" class="header_block_main-content-item">Статті</a>
+              
+            </div>
+            <div class="header_block-regid">
+            <button  onclick="toggleModal('open')" class="header_block-regid-login regid_item open-modal-btn">Login/Sign Up</button>
+          </div>
+        </div>
+          </div>
+        </header>
+        <main>
+          <div class="container">
+
+            <div id="modal" class="modal">
+              <i
+                onclick="toggleModal('close')"
+                class="fa-regular fa-circle-xmark close-icon"
+              ></i>
+              <div class="modal-container mr-1">
+                <h1 class="header">Hello Again!</h1>
+                <h2 class="text">Enter your login credential to access your account</h2>
+                <form class="form" action="#">
+                  <div class="form-field">
+                    <label class="label" for="email">Email or Username</label>
+                    <input class="input" type="text" required />
+                  </div>
+                  <div class="form-field">
+                    <label class="label" for="email">Password</label>
+                    <input class="input" type="text" required />
+                  </div>
+                  <div class="forgot-password"><a href="#">Forgot Password</a></div>
+        
+                  <div class="form-field">
+                    <button class="btn">Login</button>
+                  </div>
+                </form>
+              </div>
+        
+              <div class="divider"></div>
+        
+              <div class="modal-container ml-1">
+                <h1 class="header">Create New Account</h1>
+                <div class="social-icons">
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+        
+                <h2 class="text">or use your email for registration</h2>
+                <form class="form" action="#">
+                  <div class="form-field">
+                    <label class="label" for="firstname">Name</label>
+                    <input class="input" type="text" required />
+                  </div>
+        
+                  <div class="form-field">
+                    <label class="label" for="email">Email</label>
+                    <input class="input" type="text" required />
+                  </div>
+        
+                  <div class="form-field">
+                    <label class="label" for="email">Password</label>
+                    <input class="input" type="text" required />
+                  </div>
+        
+                  <div class="form-field">
+                    <button class="btn">Register</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+          <div class="content_start">
+            <div class="content_start_text">
+              <div class="content_start_text-title">LEARN TO RECYCLE TRACK IT & KEEP DOING</div>
+              <p class="text_area">Поле</p>
+          </div>
+            <img src="/img/planet-earth (3).png" alt="" class="content_start_img"></img>
+          </div>
+        </div>
+        </div>
+        </main>
+        <footer>
+          <div class="container footer-container">
+
+          </div>
+        </footer>
+        </div> 
+
+       <script src="/js/sign_log.js"></script>
+
+    
+
+
+</body>
+</html>

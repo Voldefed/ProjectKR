@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+        <title>Document</title>
+        
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container card-container">
+                <div class="header_block">
+                    <div class="logo">ECO SYNERGY</div>
+                    <div class="header_block_main-content">
+                        <a href="#" class="header_block_main-content-item">Мапа</a>
+                        <a href="/index.html" class="header_block_main-content-item">Головна</a>
+                        <a href="#" class="header_block_main-content-item">Статті</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="calendar" onclick="toggleModal('open')"> Подивитись календар </div>
+        <div class="container">
+            <div id="month-calendar">
+                <i onclick="toggleModal('close')" class="fa-regular fa-circle-xmark close-icon calendar-icon"></i>
+                <ul class="month">
+                    <li class="prev"><i class="fas fa-angle-double-left"></i></li>
+                    <li class="next"><i class="fas fa-angle-double-right"></i></li>
+                    <li class="month-name"></li>
+                    <li class="year-name"></li>
+                </ul>
+                <ul class="weekdays">
+                    <li>Пн</li>
+                    <li>Вт</li>
+                    <li>Ср</li>
+                    <li>Чт</li>
+                    <li>Пт</li>
+                    <li>Сб</li>
+                    <li>Нд</li>
+                </ul>
+                <ul class="days">
+                </ul>
+            </div>
+            <div class="accounting_content">
+                <div class="accounting_content_title">Сортую</div>
+                <button class="shopping">Додане</button>
+            </div>
+            <div class="accounting_list">
+                <div class="dropdown">
+                    <button class="accounting_list-item">Пластик</button>
+                    <div class="dropdown-menu information-grid cardcontainer">
+                        <!-- The dropdown items are added dynamically by JavaScript -->
+                    </div>
+                </div>
+                <!-- Add more dropdowns as needed -->
+            </div>
+            <div class="card">
+                <h1>Card</h1>
+                <ul class="listCard">
+                    <!-- The shopping cart items are added dynamically by JavaScript -->
+                </ul>
+                <div class="checkOut">
+                    <div class="total">0</div>
+                    <div class="closeShopping">Close</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/calendar.js"></script>
+    <script src="/js/basket.js"></script>
+</body>
+</html>

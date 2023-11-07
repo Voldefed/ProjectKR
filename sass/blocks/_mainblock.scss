@@ -1,0 +1,28 @@
+.mainblock {
+  flex: 1 1 auto;
+  background-image: url("$");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  //align-items: center;
+  text-align: center;
+  padding: 50px 0;
+  @media screen and (max-height: 600px) {
+    padding: 20px 0;
+  }
+  &__content {
+    flex: 1 1 auto;
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+    }
+  }
+  &__left-content{
+        border: 1px solid;
+      }
+}
