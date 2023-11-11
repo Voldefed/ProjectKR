@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply w-full h-full;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #FAEFD6;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+#root {
+  @apply w-full h-full;
+}
