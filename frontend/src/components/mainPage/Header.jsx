@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Wrapper } from "./Components";
+import { Wrapper } from "../Components";
 
 export default function Header() {
   const [isHamOpen, setIsHamOpen] = useState(false);

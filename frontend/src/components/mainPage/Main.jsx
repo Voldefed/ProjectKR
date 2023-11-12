@@ -1,4 +1,4 @@
-import { Wrapper } from "./Components";
+import { Wrapper } from "../Components";
 
 const Main = () => {
   return (
